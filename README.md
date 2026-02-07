@@ -42,8 +42,7 @@ Successfully identified specific languages (Mandarin, Korean, Cantonese) by stri
 | Manual Analysis (Human-Supervised) | AI Analysis (Autonomous Agent(chatGPT)) |
 | :---: | :---: |
 | ![Manual Result](results/income_distribution.png) | ![AI Result](AI_output/income_distribution_text.png) |
-| **Logic:** Explicitly deduplicated rows based on context (Total vs. After-tax). | **Logic:** Trusted explicit row labels without verifying duplicates. |
-| **Outcome:** Accurate household count. | **Outcome:** Double-counted every household (100% inflation). |
+
 
 **AI Analysis**
 ![AI Result](AI_output/income_distribution.png)
