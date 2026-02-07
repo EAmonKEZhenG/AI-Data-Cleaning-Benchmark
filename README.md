@@ -42,7 +42,6 @@ Successfully identified specific languages (Mandarin, Korean, Cantonese) by stri
 | Manual Analysis (Human-Supervised) | AI Analysis (Autonomous Agent(chatGPT)) |
 | :---: | :---: |
 | ![Manual Result](results/income_distribution.png) | ![AI Result](AI_output/income_distribution_text.png) |
-| **Status: Correct** | **Status: Failed** |
 | **Logic:** Explicitly deduplicated rows based on context (Total vs. After-tax). | **Logic:** Trusted explicit row labels without verifying duplicates. |
 | **Outcome:** Accurate household count. | **Outcome:** Double-counted every household (100% inflation). |
 
@@ -57,10 +56,10 @@ Successfully identified specific languages (Mandarin, Korean, Cantonese) by stri
 .
 ├── data/
 │   └── CensusProfile2021-ProfilRecensement2021-20260205015247.csv
+├── AI_output/                      <-- Saved output from AI Chat
 ├── results/
 │   ├── income_distribution.png     <-- Output from script 02
-│   ├── top5_languages.png          <-- Output from script 01
-│   └── ai_income_failed.png        <-- Saved output from AI Chat
+│   ├── top5_languages.png          <-- Output from script 01     
 ├── src/
 │   ├── 01_language_analysis.py
 │   └── 02_income_distribution.py
