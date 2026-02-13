@@ -47,7 +47,7 @@ Successfully identified specific languages (Mandarin, Korean, Cantonese) by stri
 **AI Analysis**
 ![AI Result](AI_output/income_distribution.png)
 
-**Conclusion:** The AI agent failed to detect the duplicate labels, demonstrating that high-stakes data analysis still requires Human-in-the-Loop (HITL) validation.
+**Conclusion:** The AI agent Analysis has same results as Manual Analysis (Human-Supervised)
 
 ## Repository Structure
 
